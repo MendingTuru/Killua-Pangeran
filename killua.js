@@ -243,7 +243,7 @@ module.exports = async (killua, m, commands, chatUpdate) => {
             console.error(e)
         }
 
-        /* uncomment jika ingin menggunakan
+         //uncomment jika ingin menggunakan
         if (!isOffline && isCmd && !cmd) {
             var array = Array.from(commands.keys());
             Array.from(commands.values()).map((v) => v.alias).join(" ").replace(/ +/gi, ",").split(",").map((v) => array.push(v))
@@ -262,7 +262,7 @@ module.exports = async (killua, m, commands, chatUpdate) => {
             if (user.isLimit(m.sender, isPremium, isOwner, config.options.limitCount, _user) && !m.fromMe)
             return m.reply(`Your limit has run out, please send ${prefix}limit to check the limit`);
             user.limitAdd(m.sender, isPremium, isOwner, _user);
-        }*/
+        }
 
         if (cmd.isMedia && !isMedia) {
             return global.mess("media", m)
@@ -312,7 +312,7 @@ module.exports = async (killua, m, commands, chatUpdate) => {
 				user.limitAdd(m.sender, isPremium, isOwner, _user);
 			}
 			cmd.start(killua, m, {
-                name: 'killua Zoldyck',
+                name: 'ᴰᴿᴋᴏᴋᴏ ᴘᴀ፝֟፝֟ɴɢᴇʀᴀɴ',
                 metadata,
                 pushName: pushname,
                 participants,
